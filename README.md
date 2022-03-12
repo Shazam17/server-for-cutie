@@ -1,5 +1,10 @@
 #Little server with weather api
 
+### how to run
+
+* clone repositoty
+* npm install
+* npm run start
 
 ### queries
 
