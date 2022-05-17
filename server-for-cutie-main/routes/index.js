@@ -87,4 +87,7 @@ router.post('/delete', function(req, res, next) {
   }
 })
 
+router.post('/search-city', function(req, res, next) {
+  return res.json({cityName: "chto eto takoe syka"})
+})
 module.exports = router;
