@@ -87,4 +87,7 @@ router.post('/delete', function(req, res, next) {
   }
 })
 
+router.post('/search', function(req, res, next) {
+  return(res.json({cityName: "Kiev-NASH"}))
+})
 module.exports = router;
